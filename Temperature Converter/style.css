@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.bg-container{
+    height: 100vh;
+    background-image:url("./blue-sky-with-puffy-white-clouds.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: #fff; 
+    letter-spacing: 1.2px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 30px 0 15px 0;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:  #D7C0AE;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.main-content p{
+    font-size: 22px;
+    color: #000;
+}
+
+.input-container{
+    margin-right: 30px;
+}
+
+.input-container input{
+    font-size: 18px;
+    color: black;
+    margin: 12px 0px;
+    padding: 15px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.select-degree{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-degree select{
+    font-size: 18px;
+    color: black;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+button{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    background-color: #000;
+    color: #fff;
+}
+
+.paragraph{
+    background-color: darkgreen;
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 8px;
+    margin: 20px 0 0 0;
+    width: 30%;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+}
